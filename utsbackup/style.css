@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url();
+}
+
+body {
+    background: linear-gradient(to top, #6c55e1, #fff, #fff);
+}
+.header {
+    background: #fff;
+    height: 80px;
+    width: 100%;
+}
+
+label.icon {
+    color: #6c55e1;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font: 18px/36px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label span {
+    color: #000;
+}
+
+.header ul {
+    float: right;
+    margin-right: 20px;
+    font: 18px/36px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+.header ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.header ul li a {
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a.main, .header ul li a:hover {
+    background: #000;
+    transition: .3s;
+}
+
+.checkbut {
+    font-size: 30px;
+    color: #6c55e1;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+
+.article {
+    text-align: center;
+    width: 400px;
+    height: 2300px;
+    background-color: #fff;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.container {
+    height: 350px;
+    width: 250px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 3px 3px rgba(108,85,225,255);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.article h1 {
+    color: #6c55e1;
+    margin: 30px 0;
+    padding-bottom: 20px;
+    text-align: center;
+    font: 40px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.container .progress-container {
+    margin-bottom: 25px;
+    font: 18px/36px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+.container .progress-container h4 {
+    margin: 0 0 15px 15px;
+    letter-spacing: .5px;
+    font: 18px/36px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+.container .progress-container .progress-bar {
+    position: relative;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 3px 4px 5px 0px rgba(204 185 185 / .75);
+}
+
+.container .progress-container .progress-bar span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(108,85,225,255) 50%, rgba(108,85,225,255) 100%);
+    transition: width .5s linear;
+}
+
+.footer {
+    width: auto;
+    height: 30px;
+    background-color: #725ce2;
+    text-align: center;
+    font-size: 13px;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .header {
+        background: #fff;
+        height: 80px;
+        width: 100%;
+    }
+
+    label.icon {
+        color: #6c55e1;
+        font-size: 35px;
+        line-height: 80px;
+        padding: 0 100px;
+        font-weight: bold;
+    }
+
+    .header ul {
+        float: right;
+        margin-right: 20px;
+    }
+
+    .header ul li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+    }
+
+    .header ul li a {
+        color: #6c55e1;
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .header ul li a.main {
+        color: #fff;
+    }
+
+    a.main, .header ul li a:hover {
+        background: #6c55e1;
+        transition: .3s;
+        color: #fff;
+    }
+
+    .checkbut {
+        display: none;
+    }
+
+    .article {
+        text-align: center;
+        width: auto;
+        height: auto;
+        background-color: #fff;
+        margin: auto;
+        padding: 30px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .container {
+        height: 400px;
+        width: 300px;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 30px;
+        box-shadow: 0 0 3px 3px rgba(108,85,225,255);
+        border-radius: 5px;
+        margin-bottom: 30px;
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+    
+    .article h1 {
+        margin: 30px 0;
+        padding-bottom: 20px;
+        text-align: center;
+        font: 40px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    }
+    
+    img {
+        height: 165px;
+        border-radius: 50%;
+    }
+    
+    .container .progress-container {
+        margin-bottom: 25px;
+        font: 18px/36px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    }
+    
+    .container .progress-container h4 {
+        margin: 0 0 15px 15px;
+        letter-spacing: .5px;
+        font: 18px/36px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    }
+    
+    .container .progress-container .progress-bar {
+        position: relative;
+        width: 300px;
+        height: 30px;
+        border-radius: 30px;
+        background-color: white;
+        box-shadow: 3px 4px 5px 0px rgba(204 185 185 / .75);
+    }
+    
+    .container .progress-container .progress-bar span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        color: white;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.7;
+        text-align: center;
+        border-radius: 30px;
+        background: linear-gradient(90deg, rgba(108,85,225,255) 50%, rgba(108,85,225,255) 100%);
+        transition: width .5s linear;
+    }
+
+    
+    
+    .footer {
+        width: auto;
+        height: 30px;
+        background-color: #725ce2;
+        text-align: center;
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 916px) {
+    label.icon {
+        color: #6c55e1;
+        font-size: 35px;
+        line-height: 80px;
+        padding: 0 100px;
+        font-weight: bold;
+        font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .checkbut{
+        display: block;
+    }
+    .header ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #6c55e1;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 2;
+    }
+    .header ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .header ul li a{
+        font-size: 20px;
+        color: #fff;
+    }
+    .header ul li a:hover, .header ul li a.main{
+        background: none;
+        color: #000;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}

@@ -1,0 +1,79 @@
+    
+    <div class="Anggota">
+
+        <div class="Anggota1">
+            <div class="Anggota1IMG">
+                <img src="./beruang.png">
+            </div>
+            <div class="Anggota1DES">
+                <div class="Anggota1IN">
+                    <h1>Anggota 1</h1>
+                </div>
+                    <div class="Anggota1NA">
+                        <p>Hello</p>
+                    </div>
+            </div>
+        </div>
+
+        <div class="Anggota2">
+            <div class="Anggota2IMG">
+                <img src="./beruang.png">
+            </div>
+            <div class="Anggota2DES">
+                <div class="Anggota2IN">
+                    <h1>Anggota 2</h1>
+                </div>
+                    <div class="Anggota2NA">
+                        <p>Hello</p>
+                    </div>
+            </div>
+        </div>
+
+        <div class="Anggota3">
+            <div class="Anggota3IMG">
+                <img src="./beruang.png">
+            </div>
+            <div class="Anggota3DES">
+                <div class="Anggota3IN">
+                    <h1>Anggota 3</h1>
+                </div>
+                    <div class="Anggota3NA">
+                        <p>Hello</p>
+                    </div>
+            </div>
+        </div>
+
+        <div class="Anggota4">
+            <div class="Anggota4IMG">
+                <img src="./beruang.png">
+            </div>
+            <div class="Anggota4DES">
+                <div class="Anggota4IN">
+                    <h1>Anggota 4</h1>
+                </div>
+                    <div class="Anggota4NA">
+                        <p>Hello</p>
+                    </div>
+            </div>
+        </div>
+
+        <div class="Anggota5">
+            <div class="Anggota5IMG">
+                <img src="./IMG_3201.JPG">
+            </div>
+            <div class="Anggota5DES">
+                <div class="Anggota5IN">
+                    <h1>Bintang</h1>
+                </div>
+                    <div class="Anggota5NA">
+                        <p>Gede Bintang Yustra Wartana<br>19-OKT-2003</p>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <h1>Copyright "Baking" 2023</h1>
+    </div>
+</body>

@@ -1,0 +1,27 @@
+.Anggota1
+{
+    padding: 10px;
+    background-color: #FFD099;
+    display: flex;
+}
+
+.Anggota1DES
+{
+    padding: 100px;
+    background-color: #FF6C22;
+
+    .Anggota1IMG
+    {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        padding-right: 200px;
+        padding-left: 200px;
+        background-color:#2B3499;
+        display: flex;
+    }
+
+    .Anggota1NA
+    {
+    padding: 90px;
+    }
+}
